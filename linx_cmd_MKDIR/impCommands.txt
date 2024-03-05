@@ -15,4 +15,10 @@ git log -> to check all the commits that were made in history.
 rm -rf name.Type -> to remove a file and do add commit to update history
 i will be changing the history bye using log to copy the commit arddress that is just below the change i want to remove to unstage the commit
 git reset(commitAddress) -> to delete the commit (one more new thing)
+<this is the (one more new thing i.e. to remove )>
+i made 2 new files and then put them is stash by using putiing them on stage andthen using stash command
+git stash -> to remove the files or to send them to backStage present on stage 
+git pop -> to get them back from stage 
+git stash clear ->to remove the stash
+
 */
