@@ -20,3 +20,8 @@ git remote upstream <URL>
 git branch <name> -> to create a new branch
 git checkout <name> ->used to transfer the control to <name> branch
 
+also u can not push your own branch to <upstream> coz u it is someone's main project we r working on and we dont have access to it so we can not directly update it
+i.e. we can't do git push upstream <branch> 
+we can do 
+git push origin <branch> -> coz we have access to it
+
