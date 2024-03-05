@@ -1,0 +1,7 @@
+git remote add origin <URL> ->
+here remote describes that we are working with URLS
+origin is the name given to the URL
+NOW until this point we have set up a connection with repository
+git push origin master ->
+master represents the branch that we are adding to 
+
