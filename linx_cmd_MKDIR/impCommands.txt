@@ -13,4 +13,6 @@ cat fileName.Type -> to get data on terminal.
 git restore --staged name.TYPE -> TO remove the file form stage without commiting so on status command it will get red color.
 git log -> to check all the commits that were made in history.
 rm -rf name.Type -> to remove a file and do add commit to update history
+i will be changing the history bye using log to copy the commit arddress that is just below the change i want to remove to unstage the commit
+git reset(commitAddress) -> to delete the commit (one more new thing)
 */
