@@ -6,3 +6,9 @@ else putting these changes in stash
 after learnig about repository 
 i have learnt how to push files to the repository 
 now its time to learn about branches
+
+i have created a new branch newlearning 
+i know why we need to create new branches coz we can no tadd the code the we edited to the original repository
+so we create our own branch and make changes in it 
+and after completing we push our <origin><branch> to the upstream URL that we have to update when we r working on someones project and we have to push our code 
+so after uploding we make a pull request to the host
