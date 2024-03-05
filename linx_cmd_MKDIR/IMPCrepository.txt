@@ -25,3 +25,7 @@ i.e. we can't do git push upstream <branch>
 we can do 
 git push origin <branch> -> coz we have access to it
 
+
+now i will be removing newfileDEL1 bye using branch somethingDEL1
+and when we have to remove a file that is present in ONLINErepository but not in my repository then
+git push origin <branch> -f we have force push the push request 
