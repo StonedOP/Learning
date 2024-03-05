@@ -1,0 +1,32 @@
+when changes are in upstream main branch get updated
+but the origin main or master branch doesnot get updated
+to update it from gitHUB u can use fetch upstream button
+
+
+also if the change r made in the project's main branch then 
+we want those update to be in our forked project main branch too 
+
+to do it manually 
+we have to go back to main branch by checkout <branch>
+and then we can check by <git log> how much we lag from upstream branch
+
+git fetch --all --prune ->
+here prune means changes thet were deleted will also be brought
+then we reset the main branch of <origin> to the main branch of <upstream>/main branch
+we do the above by 
+git reset --hard upstream/main
+
+after that we check if its in sink by <git log> to check if the commits in local foldermatches with the upstream
+
+also we have to push them to online repository
+git push origin main ->
+
+we can also update our origin by 1 command 
+git pull upstream main ->
+pull does the same thing the fetch did internally and update the local folder
+
+to make changes in repository we again do
+git push origin main ->
+
+so when we want to get the updates to our origin somebody else merged to upstream we use p
+
