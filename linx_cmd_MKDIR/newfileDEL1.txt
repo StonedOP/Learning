@@ -1,5 +1,5 @@
 some new things i m learning about removing and stashing the files in like back stage
-ihave learnt how to link a repository to th gitCMD
+i have learnt how to link a repository to the gitCMD
 
 its time to learn how to remove the commit from the repository 
-
+i had done the commit (ooops!) but removed it by using git reset <logADDRESS>
