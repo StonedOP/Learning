@@ -7,3 +7,16 @@ master represents the branch that we are adding to
 git remote -v ->to check repository 
 head represents on which branch you r working on
 origin/master in different color will represent the commit address that is updated or being desplayed on the repository
+
+to make changes in projects on gitHUB we to fork or clone them
+git clone<URL> -> to do so we need the url of that project
+after cloning we can check by changing the directory<cd> and using cat<fileName>
+
+an upstream URL is the URL from where you have colned an project
+to add it 
+git remote upstream <URL>
+
+
+git branch <name> -> to create a new branch
+git checkout <name> ->used to transfer the control to <name> branch
+
