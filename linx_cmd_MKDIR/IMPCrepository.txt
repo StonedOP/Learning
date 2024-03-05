@@ -2,6 +2,8 @@ git remote add origin <URL> ->
 here remote describes that we are working with URLS
 origin is the name given to the URL
 NOW until this point we have set up a connection with repository
-git push origin master ->
-master represents the branch that we are adding to 
-
+git push origin master -> it pushes new commits to the master branch
+master represents the branch that we are adding to
+git remote -v ->to check repository 
+head represents on which branch you r working on
+origin/master in different color will represent the commit address that is updated or being desplayed on the repository
